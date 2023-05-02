@@ -1,7 +1,7 @@
 def bulls_and_cows(computer, player):
     bulls = 0
     cows = 0
-
+	test = 0
     for i,j in zip(computer,player):
         if j == i:
             bulls += 1
