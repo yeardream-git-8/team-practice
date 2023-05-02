@@ -1,7 +1,12 @@
 import random
 
 def rand_nums():
-    num = random.randint(1,9)    
-    print(num)
+    num_list = []
+    for i in range(4):
+        num_list.append(random.randint(1,9))
+    print(num_list)
+
+    return num_list
+
 
 rand_nums()
